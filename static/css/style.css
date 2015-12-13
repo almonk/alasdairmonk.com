@@ -21,6 +21,7 @@ html {
 .content {
 	flex: 1;
 	padding: 60px 80px;
+	z-index: 2;
 }
 
 p {
@@ -94,6 +95,7 @@ p .graphic__emblem {
 	margin-top: -50px;
 	padding: 60px 80px;
 	flex: 2;
+	z-index: 0;
 }
 
 .image {
