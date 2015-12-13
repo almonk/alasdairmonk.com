@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-42.2180176%" y1="50%" x2="119.195557%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#3F3472" offset="0%"></stop>
+            <stop stop-color="#6C47A4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-1" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="0" y="0" width="64" height="64"></rect>
+            <path d="M18,55 L25,48.5 L18,42 L18,55" id="Fill-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M44,29 C42.8956944,27.6335714 40.51125,26.0714286 37,26 C32.15925,26.0714286 27.6618333,27.2052679 24,28 L24,10 L18,10 L18,38 L23,36 C22.6255,35.7874107 29.9753889,32.5 37,33 C39.7991389,32.5 40.5241389,34.3024107 41,36 L41,55 L47,55 L47,36 C47.0040278,35.3028571 46.9653611,31.740625 44,29" id="Fill-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M35,20 L41.2857143,20 C44.1284286,16.8461538 45.5757143,13.4953846 46,10 L39.7142857,10 C39.0212857,13.4876923 37.4702857,16.8269231 35,20" id="Fill-4" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

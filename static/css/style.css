@@ -2,53 +2,147 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	color: #777;
+html,body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-size: 22px;
+   color: rgba(0,0,0,0.7);
+   background-color: #fff;
+   -webkit-font-smoothing: antialiased;
+   -webkit-user-select: none;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+html {
+}
+
+.content {
+	flex: 1;
+	padding: 60px 80px;
 }
 
 p {
-	line-height:1.8;
+	line-height: 190px;
+	cursor: default;
 }
 
-strong {
-	font-weight: 500;
-	color: #333;
+p .graphic {
+	display: inline-block;
+	position: relative;
+	top: 26px;
+	background-color: #fff;
+	margin: 0 10px;
+	border-radius: 19px;
+	transition: all 0.2s;
 }
 
-a {
-	text-decoration: none;
-	color: #5badf0;
+p .graphic .annotation {
+	position: absolute;
+	left: 0px;
+	top: -126px;
+	transform: rotate(-20deg);
+	color: rgba(0,0,0,0.9);
 }
 
-#wrapper {
-	margin: 0 auto;
-	max-width: 560px;
-	padding: 160px 40px;
+p .graphic:hover .graphic__emblem {
 }
 
-/* Link to Documentation */
-#docs {
-	position: fixed; 
-	top: 8px; 
-	right: 6px;
-	background: #5badf0; 
-	color: #fff;
-	padding: 8px 12px;
-	font-size: 13px; 
-	font-weight: bold; 
-	line-height: 1.35;
-	border-radius: 3px; 
-	z-index: 100;
+p .graphic__emblem {
+	display: inline-block;
+	height: 64px;
+	width: 64px;
+	border-radius: 8px;
+	-webkit-background-size: 64px 64px;
+	background-size: 64px 64px;
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
 }
 
-/* Made with Cactus Badge */
-#badge {
-	position: absolute; 
-	bottom: 8px; 
-	right: 8px;
-	height: 48px; 
-	width: 48px;
+.graphic__emblem#heroku {
+	background-image: url('../images/heroku-logo.svg');
 }
+
+.graphic__emblem#lines {
+	background-image: url('../images/lines.svg');
+}
+
+.graphic__emblem#saber {
+	background-image: url('../images/saber.svg');
+}
+
+.graphic__emblem#bind {
+	background-image: url('../images/bind.png');
+	border-radius: 50%;
+}
+
+.graphic__emblem#twitter {
+	background-image: url('../images/twitter.png');
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.graphic__emblem#medium {
+	background-image: url('../images/medium.png');
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	margin-top: -50px;
+	padding: 60px 80px;
+	flex: 2;
+}
+
+.image {
+	flex: 1;
+	background-color: #DEDEDE;
+	height: 40px;
+	margin-right: 20px;
+	height: 260px;
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.image#me {
+	background-image: url('../images/me.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+ @media (max-width: 992px) {
+ 	html,body {
+ 	}
+
+ 	.content {
+		padding: 20px;
+ 	}
+
+ 	.images {
+ 		display: none;
+ 	}
+
+	p {
+		font-size: 18px;
+		line-height: 80px;
+	}
+
+	p .graphic {
+		top: 20px;
+	}
+
+	p .graphic .annotation {
+		display: none;
+	}
+
+	p .graphic__emblem {
+		height: 48px;
+		width: 48px;
+		border-radius: 6px;
+		-webkit-background-size: 48px 48px;
+		background-size: 48px 48px;
+	}
+  }
