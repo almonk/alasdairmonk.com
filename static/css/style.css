@@ -109,7 +109,7 @@ p .graphic__emblem {
 }
 
 .image#me {
-	background-image: url('../images/me.png');
+	background-image: url('../images/me.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
 }
