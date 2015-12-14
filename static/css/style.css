@@ -109,6 +109,7 @@ p .graphic__emblem {
 	background-image: url('../images/me.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
+	margin-right: 0;
 }
 
 
