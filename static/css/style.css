@@ -1,165 +1,169 @@
 /* Reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-size: 22px;
-   color: rgba(0,0,0,0.7);
-   background-color: #fff;
-   -webkit-font-smoothing: antialiased;
-   -webkit-user-select: none;
-	display: flex;
-	flex-direction: column;
-	box-sizing: border-box;
+  line-height: 1
 }
-
-
+blockquote, q {
+  quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 .content {
-	padding: 60px 80px;
-	z-index: 2;
-	flex-grow: 1;
+  padding: 60px 80px;
+  z-index: 2;
+  flex-grow: 1;
 }
-
 p {
-	line-height: 190px;
-	cursor: default;
+  line-height: 190px;
+  cursor: default;
 }
-
 p .graphic {
-	display: inline-block;
-	position: relative;
-	top: 26px;
-	background-color: #fff;
-	margin: 0 10px;
-	border-radius: 19px;
-	transition: all 0.2s;
+  display: inline-block;
+  position: relative;
+  top: 26px;
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 19px;
+  transition: all 0.2s;
 }
-
 p .graphic .annotation {
-	position: absolute;
-	left: 0px;
-	top: -126px;
-	transform: rotate(-20deg);
-	color: rgba(0,0,0,0.9);
+  position: absolute;
+  left: 0px;
+  top: -126px;
+  transform: rotate(-20deg);
+  color: rgba(0, 0, 0, 0.9);
 }
-
-p .graphic:hover .graphic__emblem {
-}
-
+p .graphic:hover .graphic__emblem {}
 p .graphic__emblem {
-	display: inline-block;
-	height: 64px;
-	width: 64px;
-	border-radius: 16px;
-	-webkit-background-size: 64px 64px;
-	background-size: 64px 64px;
-	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  border-radius: 16px;
+  -webkit-background-size: 64px 64px;
+  background-size: 64px 64px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
 }
-
 .graphic__emblem#heroku {
-	background-image: url('../images/heroku-logo.svg');
+  background-image: url('../images/heroku-logo.svg');
 }
-
 .graphic__emblem#lines {
-	background-image: url('../images/lines.svg');
+  background-image: url('../images/lines.svg');
 }
-
 .graphic__emblem#saber {
-	background-image: url('../images/saber.png');
+  background-image: url('../images/saber.png');
 }
-
 .graphic__emblem#bind {
-	background-image: url('../images/bind.png');
-	border-radius: 50%;
+  background-image: url('../images/bind.png');
+  border-radius: 50%;
 }
-
 .graphic__emblem#twitter {
-	background-image: url('../images/twitter.png');
-	border-radius: 0;
-	box-shadow: none;
+  background-image: url('../images/twitter.png');
+  border-radius: 0;
+  box-shadow: none;
 }
-
 .graphic__emblem#medium {
-	background-image: url('../images/medium.png');
-	border-radius: 0;
-	box-shadow: none;
+  background-image: url('../images/medium.png');
+  border-radius: 0;
+  box-shadow: none;
 }
-
 .graphic__emblem#bricklane {
-	background-image: url('../images/bricklane.png');
+  background-image: url('../images/bricklane.png');
 }
-
 .images {
-	display: flex;
-	flex-direction: row;
-	margin-top: -50px;
-	padding: 60px 80px;
-	flex: 2;
-	z-index: 0;
+  display: flex;
+  flex-direction: row;
+  margin-top: -50px;
+  padding: 60px 80px;
+  flex: 2;
+  z-index: 0;
 }
-
 .image {
-	flex: 1;
-	background-color: #DEDEDE;
-	height: 40px;
-	margin-right: 20px;
-	height: 260px;
-	opacity: 0.2;
-	pointer-events: none;
+  flex: 1;
+  background-color: #DEDEDE;
+  height: 40px;
+  margin-right: 20px;
+  height: 260px;
+  opacity: 0.2;
+  pointer-events: none;
 }
-
 .image#me {
-	background-image: url('../images/me.jpg');
-	-webkit-background-size: cover;
-	background-size: cover;
-	margin-right: 0;
+  background-image: url('../images/me.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-right: 0;
 }
-
-
- @media (max-width: 692px) {
- 	html,body {
- 	}
-
- 	.content {
-		padding: 20px;
- 	}
-
-	.images {
-		padding: 20px;
-		margin-top: 0px;
-	}
-
-	.images :not(#me) {
-		display: none;
-	}
-
-	.images .image#me {
-		height: 400px;
-	}
-
-	p {
-		font-size: 18px;
-		line-height: 83px;
-	}
-
-	p .graphic {
-		top: 20px;
-	}
-
-	p .graphic .annotation {
-		font-size: 13px;
-		font-weight: 700;
-		top: -58px;
-		opacity: 0.4;
-		left: 0px!important;
-	}
-
-	p .graphic__emblem {
-		height: 48px;
-		width: 48px;
-		border-radius: 13px;
-		-webkit-background-size: 48px 48px;
-		background-size: 48px 48px;
-	}
+@media (max-width: 692px) {
+  html, body {}
+  .content {
+    padding: 20px;
   }
+  .images {
+    padding: 20px;
+    margin-top: 0px;
+  }
+  .images:not(#me) {
+    display: none;
+  }
+  .images .image#me {
+    height: 400px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 83px;
+  }
+  p .graphic {
+    top: 20px;
+  }
+  p .graphic .annotation {
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    top:-20px;
+    left: 0!important;
+    font-weight:normal;
+    font-size: 18px;
+    line-height: 83px;
+    transform: rotate(0deg);
+    margin-right: -8px;
+  }
+  p .graphic__emblem {
+    height: 48px;
+    width: 48px;
+    border-radius: 13px;
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+}
