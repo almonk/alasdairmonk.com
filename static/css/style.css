@@ -79,6 +79,9 @@ p .graphic__emblem {
 .graphic__emblem#heroku {
   background-image: url('../images/heroku-logo.svg');
 }
+.graphic__emblem#botframe {
+  background-image: url('../images/botframe.png');
+}
 .graphic__emblem#lines {
   background-image: url('../images/lines.svg');
 }
