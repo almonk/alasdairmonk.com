@@ -94,6 +94,10 @@ p .graphic__emblem {
   background-image: url('../images/bind.png');
   border-radius: 50%;
 }
+.graphic__emblem#pollen {
+  background-image: url('../images/pollen.png');
+  border-radius: 50%;
+}
 .graphic__emblem#twitter {
   background-image: url('../images/twitter.png');
   border-radius: 0;
