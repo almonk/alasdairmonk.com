@@ -1,0 +1,10 @@
+<div class="flex flex-col md:flex-row flex-wrap mt-1 pb-5">
+  <% collection.each do |link| %>
+    <div class="md:w-1/2 py-4 pr-4">
+      <img src="static/images/press-<%= link["brand"] %>.png" class="h-10 opacity-75 block" alt="">
+      <a href="<%= link["url"] %>" class="lora text-xl font-normal text-black no-underline leading-normal readability bg-yellow-lightest">
+        <%= link["title"] %>
+      </a>
+    </div>
+  <% end %>
+</div>

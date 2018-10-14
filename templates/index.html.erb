@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<title>Alasdair Monk @almonk</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<link rel="stylesheet" href="static/css/style2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Alasdair Monk is a product designer">
+</head>
+
+<body>
+	<div class="container mx-auto max-w-md px-4 pt-10 pb-10">
+		<div class="bg-grey rounded-full h-24 w-24 flex items-center justify-center mb-5 overflow-hidden">
+			<img src="static/images/me4.jpg" alt="">
+		</div>
+
+		<h1 class="lora text-xl text-black font-bold leading-normal">Alasdair Monk</h1>
+		<h2 class="lora text-xl text-black font-normal leading-normal">Digital Product Designer, Developer &amp; Strategist</h2>
+		<div class="merri text-grey-darkest text-l mt-5 leading-normal pb-5">
+			<p class="readability">Today, I'm a Principal Product Designer at Salesforce working on our Heroku product and
+				towards making developer experiences better.</p>
+			<p class="mt-2 readability">Prior to this, I was the Head of Design at GoCardless where I worked for three years on
+				democratising payments for small businesses.</p>
+			<p class="mt-2 readability">I'm keenly interested in the intersection of design &amp; code and most of my writing
+				reflects this. I like big ideas and hard projects and making something from nothing.</p>
+		</div>
+
+		<%= section "Selected Writing" %>
+		<%= render "link-list", data["Selected writing"]["collection"] %>
+
+		<%= section "Featured", "Selected publications that have featured me or my work" %>
+		<%= render "press-list", data["Featured"]["collection"] %>
+
+		<%= section "Selected Projects" %>
+		<%= render "link-list", data["Selected projects"]["collection"] %>
+
+		<%= section "Around the web" %>
+		<%= render "link-list", data["Contact"]["collection"] %>
+		
+	</div>
+</body>
+</html>

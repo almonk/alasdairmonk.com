@@ -1,0 +1,73 @@
+Selected writing:
+  collection:
+    - title: Designing & building our design toolchain
+      excerpt: An overview of design tooling that we've built at Heroku and how it's impacted our productivity for the better
+      url: https://medium.com/@almonk/designing-building-our-design-toolchain-740aa290633c
+
+    - title: Blame your tools
+      excerpt: What's wrong with our design tooling and how is it holding us back? Commissioned by and originally published in net Magazine
+      url: https://medium.com/net-magazine/blame-your-tools-737fd36b3209
+
+    - title: Making remote work
+      excerpt: What we've learnt about what works and what doesn't when working remotely
+      url: https://medium.com/salesforce-ux/making-remote-work-b2e2fe53221f
+
+    - title: Building an experimental design tool
+      excerpt: The introductory post to a side project of mine called Bind, which was an experimental design tool based around the idea of using constraints as the primary layout driver
+      url: https://medium.com/@almonk/design-like-it-s-1999-48ce5f5be14
+
+    - title: How a sketch on a napkin changed how the world thought about architecture
+      excerpt: The Crystal Palace of Hyde Park in 1851 was a wonder of the Victorian era, but it almost never happened. Adapted from a presentation I gave at General Assembly’s Design Night Marathon on the subject of "things you didn’t know about design"
+      url: https://medium.com/@almonk/how-a-sketch-on-a-napkin-changed-how-the-world-thought-about-architecture-6731761da91f
+
+
+Featured:
+  collection:
+    - title: How do game companies share massive files?
+      brand: bbc
+      url: https://www.bbc.com/news/business-25037653
+
+    - title: London commuter’s ‘Lines’ iPhone App reaches chart No 2
+      brand: metro
+      url: https://metro.co.uk/2013/02/25/london-commuters-lines-iphone-app-reaches-chart-no-2-3511748/
+
+    - title: "Let's meet & work: A curated directory of places to work in London and New York"
+      brand: tnw
+      url: https://thenextweb.com/apps/2011/08/30/lets-meet-and-work-a-curated-directory-of-places-to-work-in-london-and-new-york/
+
+    - title: Blame Your Tools
+      brand: net
+      url: https://medium.com/net-magazine/blame-your-tools-737fd36b3209
+
+    - title: Bind and the Problem of Version Control for Designers
+      brand: sub
+      url: https://www.subtraction.com/2015/03/24/bind-and-version-control/
+
+    - title: Interview with Alasdair Monk
+      brand: int
+      url: https://www.itsnicethat.com/articles/alasdair-monk-lets-meet-and-work
+
+Selected projects:
+  collection:
+    - title: Botframe
+      excerpt: A little tool to help design conversational interfaces. Built with Ember and Parse
+      url: https://botframe.com/
+
+    - title: Bind
+      excerpt: An experimental design tool that I designed and developed. Hybrid React and Cocoa Objective C app
+      url: https://github.com/almonk/Bind
+
+    - title: Shrink
+      excerpt: A macOS app for keeping track of GitHub issues. Built with Electron and Ember
+      url: https://github.com/almonk/shrink2
+
+Contact:
+  collection:
+    - title: "Twitter"
+      url: https://twitter.com/almonk
+    - title: GitHub
+      url: https://github.com/almonk
+    - title: Instagram
+      url: https://www.instagram.com/almonk/
+    - title: alasdair.monk+hello@gmail.com
+      url: "mailto: alasdair.monk+hello@gmail.com"
