@@ -18,3 +18,8 @@ html,body {
   height: 108px;
   width: 108px;
 }
+
+::selection {
+  background: #D7FFF6;
+  color: rgba(0,0,0,0.9);
+}
