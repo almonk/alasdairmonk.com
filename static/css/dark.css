@@ -22,4 +22,5 @@ html,body,.bg-white {
 img.can-invert{
   -webkit-filter: invert(1);
    filter: invert(1);
+   opacity: 1;
 }
