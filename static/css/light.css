@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -7,7 +8,7 @@ html,body {
 }
 
 .merri {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .readability {
@@ -20,6 +21,37 @@ html,body {
 }
 
 ::selection {
-  background: #D7FFF6;
-  color: rgba(0,0,0,0.9);
+  background: #d7fff6;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: #50e3c2;
+    color: #000;
+  }
+
+  html,
+  body,
+  .bg-white {
+    background: #000;
+  }
+
+  .text-black {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .text-grey-darkest {
+    color: #8795a1;
+  }
+
+  .bg-yellow-lightest {
+    background: #002f33;
+  }
+
+  img.can-invert {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    opacity: 1;
+  }
 }
