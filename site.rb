@@ -14,7 +14,7 @@ def build
     f.puts "<!-- This file is auto-generated. Don't touch it. -->"
     f.puts HtmlPress.press(ERB.new(File.read("./templates/index.html.erb")).result(binding))
   }
-  puts "Site built: ./index.html".green
+  puts "Site built: ./index.html".green  
 end
 
 # Template methods
