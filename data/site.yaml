@@ -48,6 +48,10 @@ Featured:
 
 Selected projects:
   collection:
+    - title: Pylon
+      excerpt: A CSS library of declarative layout primitives 
+      url: https://almonk.github.io/pylon/
+
     - title: Botframe
       excerpt: A little tool to help design conversational interfaces. Built with Ember and Parse
       url: https://botframe.com/
