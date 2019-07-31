@@ -1,5 +1,5 @@
 # alasdairmonk.com
-This is the repo of my personal site. It's built on a extremely simple custom CMS (found in `site.rb`) and hosted on GitHub Pages.
+This is the repo of my personal site. It's built on a extremely simple, Ruby-based custom CMS (found in `site.rb`) and hosted on GitHub Pages.
 
 
 ## How the CMS functions
@@ -17,10 +17,12 @@ static/
   # Static assets like images, css et al
 ```
 
-### Building the site locally
+### Developing locally
+This site uses modd to allow for instant builds when files change.
 ```bash
+$ brew install modd # Skip if you have modd already
 $ bundle install
-$ ruby site.rb
+$ modd
 ```
 
 ### Template methods
