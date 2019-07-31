@@ -8,22 +8,20 @@ body {
   max-width: 90%;
 }
 
+.bg-yellow-lightest {
+  background-color: #FFFF88;
+}
+
 .avatar {
   height: 108px;
   width: 108px;
 }
 
-::selection {
-  background: #d7fff6;
-  color: rgba(0, 0, 0, 0.9);
+.blend {
+  mix-blend-mode: darken;
 }
 
 @media (prefers-color-scheme: dark) {
-  ::selection {
-    background-color: #50e3c2;
-    color: #000;
-  }
-
   html,
   body,
   .bg-white {
@@ -46,5 +44,9 @@ body {
     -webkit-filter: invert(1);
     filter: invert(1);
     opacity: 1;
+  }
+
+  .blend {
+    mix-blend-mode: normal;
   }
 }
