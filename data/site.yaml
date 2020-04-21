@@ -48,6 +48,10 @@ Featured:
 
 Selected projects:
   collection:
+    - title: Umbra.app
+      excerpt: The missing app for Dark Mode
+      url: https://umbra.replay.software
+
     - title: Pylon
       excerpt: A CSS library of declarative layout primitives 
       url: https://almonk.github.io/pylon/
