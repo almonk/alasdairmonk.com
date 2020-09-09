@@ -32,5 +32,23 @@ article p {
 }
 
 @media (prefers-color-scheme: dark) {
+  html,body {
+    background: #000;
+    color: #fff;
+  }
 
+  p a, li a{
+    font-weight: 600;
+    background-image: linear-gradient(to bottom, black 50%, rgba(255, 78, 1, 0.4) 50%);
+    transition: background-position 1s;
+  }
+
+  .text-gray-700 {
+    color: rgba(160,174,192,1)
+  }
+
+  .social img {
+    filter: invert();
+    opacity: 0.6;
+  }
 }
