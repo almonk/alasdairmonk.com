@@ -10,11 +10,11 @@ POSTS_DIR = "./data/posts/"
 
 # Main build process
 
-def build_home
+def build_page(page)
   data = YAML.load(File.read(DATAFILE))
-  open("./index.html", "w") { |f|
+  open("./#{page}.html", "w") { |f|
     f.puts "<!-- This file is auto-generated. Don't touch it. -->"
-    f.puts HtmlPress.press(ERB.new(File.read("./templates/index.html.erb")).result(binding))
+    f.puts HtmlPress.press(ERB.new(File.read("./templates/#{page}.html.erb")).result(binding))
   }
   puts "✔ Built: ./index.html".green
 end
@@ -49,5 +49,6 @@ def render(template, collection)
   return ERB.new(File.read("./templates/partials/#{template}.html.erb")).result(binding)
 end
 
-build_home
+build_page("index")
+build_page("cv")
 # build_blog
