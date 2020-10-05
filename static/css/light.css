@@ -28,7 +28,7 @@ p a:hover, a:hover {
 }
 
 article p {
-  width: 95%;
+  width: 85%;
 }
 
 @media (prefers-color-scheme: dark) {
