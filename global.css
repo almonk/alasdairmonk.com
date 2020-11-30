@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+body {
+  border-top: 6px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right,#743ad5, #d53a9d);
+}
+
+path {
+  fill: rgba(0, 0, 0, 0.9);
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+  }
+
+  path {
+    fill: white;
+  }
+}
