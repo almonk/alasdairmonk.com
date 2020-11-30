@@ -21,6 +21,10 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  html,body {
+    background: black;
+  }
+
   a {
     border-bottom: 1px solid rgba(255,255,255,0.4);
   }
