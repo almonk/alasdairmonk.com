@@ -19,14 +19,14 @@
     &amp;
     <a href="https://developer.salesforce.com">Salesforce Platform</a>
     to improve developer experience. Prior to that, I led design at&nbsp;<a
-      href="https://gocardless.com">GoCardless</a>. In my spare time, I make mac apps at <a href="https://replay.software">Replay</a>.
+      href="https://gocardless.com">GoCardless</a>. In my spare time, I make apps for the Mac at <a href="https://replay.software">Replay</a>.
   </p>
 
   <Headline title="Projects" />
   <FeatuedLink
     url="https://umbra.replay.software/"
     title="Umbra"
-    subtext="The missing mac app for Dark Mode" />
+    subtext="The missing Mac app for Dark Mode" />
   <FeatuedLink
     url="https://almonk.github.io/pylon/"
     title="Pylon"
