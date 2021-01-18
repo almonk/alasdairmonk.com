@@ -13,8 +13,7 @@
   <Logotext></Logotext>
 
   <p class="dark:text-gray-400 text-gray-800 lg:text-xl mt-8 lg:mt-10">
-    I'm a designer working on making computers creative spaces. For the last six
-    years, I've worked at
+    I'm a designer working on making computers creative spaces. Today, I'm a Principal Product Designer at <a href="https://hashicorp.com">HashiCorp</a>. Previously I worked as a UX Architect at
     <a href="https://heroku.com">Heroku</a>
     &amp;
     <a href="https://developer.salesforce.com">Salesforce Platform</a>
