@@ -13,12 +13,16 @@
   <Logotext></Logotext>
 
   <p class="dark:text-gray-400 text-gray-800 lg:text-xl mt-8 lg:mt-10">
-    I'm a designer working on making computers creative spaces. Today, I'm a Principal Product Designer at <a href="https://hashicorp.com">HashiCorp</a>. Previously I worked as a UX Architect at
+    I'm a designer working on making computers creative spaces. Today, I'm a Principal Product Designer at <a href="https://hashicorp.com">HashiCorp</a>.
+  </p>
+  <p class="dark:text-gray-400 text-gray-800 lg:text-xl mt-6 lg:mt-8">
+    Previously I worked as a UX Architect at
     <a href="https://heroku.com">Heroku</a>
     &amp;
     <a href="https://developer.salesforce.com">Salesforce Platform</a>
     to improve developer experience. Prior to that, I led design at&nbsp;<a
-      href="https://gocardless.com">GoCardless</a>. In my spare time, I make apps for the Mac at <a href="https://replay.software">Replay</a>.
+      href="https://gocardless.com">GoCardless</a>.
+     In my spare time, I make apps for the Mac at <a href="https://replay.software">Replay</a>.
   </p>
 
   <Headline title="Projects" />
