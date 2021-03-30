@@ -27,6 +27,10 @@
 
   <Headline title="Projects" />
   <FeatuedLink
+    url="https://customboy.alasdairmonk.com"
+    title="CustomBoy"
+    subtext="A 3D sandbox for designing a custom, original GameBoy" />
+  <FeatuedLink
     url="https://umbra.replay.software/"
     title="Umbra"
     subtext="The missing Mac app for Dark Mode" />
