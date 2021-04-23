@@ -28,6 +28,10 @@
   <Headline title="Projects" />
   <FeatuedLink
     url="https://customboy.alasdairmonk.com"
+    title="Bump"
+    subtext="The easy way to release & update indie Mac apps." />
+  <FeatuedLink
+    url="https://customboy.alasdairmonk.com"
     title="CustomBoy"
     subtext="A 3D sandbox for designing a custom, original GameBoy" />
   <FeatuedLink
