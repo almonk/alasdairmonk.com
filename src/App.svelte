@@ -27,9 +27,9 @@
 
   <Headline title="Projects" />
   <FeatuedLink
-    url="https://customboy.alasdairmonk.com"
+    url="https://replay.software/bump"
     title="Bump"
-    subtext="The easy way to release & update indie Mac apps." />
+    subtext="The easy way to release & update indie Mac apps" />
   <FeatuedLink
     url="https://customboy.alasdairmonk.com"
     title="CustomBoy"
