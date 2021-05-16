@@ -1,5 +1,5 @@
 <script>
-  import FeatuedLink from "./FeatuedLink.svelte";
+  import FeaturedLink from "./FeaturedLink.svelte";
   import Headline from "./Headline.svelte";
   import { Github, Linkedin, Medium, Twitter } from "@icons-pack/svelte-simple-icons";
   import Logo from "./am-logo.svg";
@@ -26,33 +26,37 @@
   </p>
 
   <Headline title="Projects" />
-  <FeatuedLink
+  <FeaturedLink
+    url="https://replay.software/sleeve"
+    title="Sleeve"
+    subtext="Your music on your desktop" />
+  <FeaturedLink
     url="https://replay.software/bump"
     title="Bump"
     subtext="The easy way to release & update indie Mac apps" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://customboy.alasdairmonk.com"
     title="CustomBoy"
     subtext="A 3D sandbox for designing a custom, original GameBoy" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://umbra.replay.software/"
     title="Umbra"
     subtext="The missing Mac app for Dark Mode" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://almonk.github.io/pylon/"
     title="Pylon"
     subtext="Powerful &amp; declarative layout utilities for CSS" />
 
   <Headline title="Featured" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://fullstackradio.com/128"
     title="128: Alasdair Monk - Scaling CSS at Heroku with Utility Classes"
     subtext="Full Stack Radio" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://medium.com/net-magazine/blame-your-tools-737fd36b3209"
     title="Blame your tools"
     subtext=".NET Magazine" />
-  <FeatuedLink
+  <FeaturedLink
     url="https://medium.com/salesforce-ux/making-remote-work-b2e2fe53221f"
     title="Making remote work"
     subtext="Salesforce Design Blog" />
